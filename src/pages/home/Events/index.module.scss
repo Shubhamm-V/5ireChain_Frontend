@@ -1,0 +1,27 @@
+.holder {
+  padding-inline: 2rem !important;
+}
+.sliderImage {
+  height: 20rem !important;
+  width: auto;
+  padding: 3rem 2rem;
+}
+
+@media (max-width: 780px) {
+  .sliderImage {
+    height: 12.9rem !important;
+    padding-inline: 0.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .sliderImage {
+    height: 12rem !important;
+    padding-inline: 0.5rem;
+  }
+}
+@media (max-width: 280px) {
+  .sliderImage {
+    height: 10rem !important;
+    padding-inline: 0.4rem;
+  }
+}

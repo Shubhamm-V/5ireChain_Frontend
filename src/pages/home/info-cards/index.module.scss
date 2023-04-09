@@ -1,0 +1,228 @@
+.infoCardContainer {
+  color: var(--sub-primary-color) !important;
+  background-color: var(--theme-color) !important;
+}
+.infoCard {
+  margin-top: 2rem !important;
+  color: var(--sub-primary-color) !important;
+  background-color: var(--theme-color);
+}
+.infoCardImage {
+  display: flex !important;
+  justify-content: flex-end !important;
+  img {
+    height: 25rem !important;
+    width: auto !important;
+  }
+}
+.infoCardDescription {
+  padding: 2rem 1rem !important;
+  h1 {
+    font-size: 2.5rem !important;
+    word-wrap: break-word;
+  }
+  ul > li {
+    font-size: 1.2rem !important;
+  }
+}
+
+.learnMoreButton {
+  width: 35% !important;
+}
+
+.infoImageContainer {
+  img {
+    width: 100%;
+    height: 80% !important;
+  }
+}
+
+.aboutInfo {
+  padding: 2rem 0.5rem !important;
+  h1 {
+    color: var(--primary-color);
+    font-size: 2.2rem !important;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+.aboutCard {
+  padding: 4.5rem 0.2rem !important;
+  padding-bottom: 0 !important;
+}
+
+.featureCards {
+  color: var(--sub-primary-color);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.managePadding {
+  padding-inline: 3rem;
+}
+.featureCardContainer {
+  margin-top: 3rem !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.featureCard {
+  width: 80%;
+  color: var(--sub-primary-color);
+  background-color: var(--theme-color) !important;
+  border: none;
+  border-radius: 1rem;
+  word-wrap: break-word;
+}
+
+.missionDescription {
+  text-align: center !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.cardDescription {
+  font-size: 1.1rem !important;
+}
+
+.cardImage {
+  width: 100% !important;
+  height: 20rem !important;
+  object-fit: contain !important;
+}
+
+.imageGradient {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--subtheme-color),
+    var(--theme-color)
+  );
+  border-radius: 1rem !important;
+}
+
+.expoloreCardContainer {
+  display: flex !important;
+  padding: 4rem 0 !important;
+  justify-content: center !important;
+}
+.exploreCard {
+  width: 83%;
+  border: none;
+  color: var(--sub-primary-color);
+  background-color: var(--theme-color);
+}
+
+.exploreContainer {
+  display: flex !important;
+  justify-content: center !important;
+  padding: 2rem 0 !important;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--subtheme-color),
+    var(--theme-color)
+  );
+}
+
+.exploreImage {
+  width: 70%;
+}
+
+.exploreDescription {
+  padding-bottom: 1rem;
+  h1 {
+    font-size: 1.9rem !important;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+// Responsive Brakpoint Tablet Device
+@media (max-width: 768px) {
+  .aboutInfo {
+    padding: 0 !important;
+    h1 {
+      color: var(--primary-color);
+      font-size: 1.6rem !important;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  .infoImageContainer {
+    img {
+      width: 100%;
+      height: 95% !important;
+    }
+  }
+  .aboutCard {
+    padding: 3rem 0 !important;
+  }
+}
+
+// Responsive Breakpoint Mobile Device
+
+@media (max-width: 576px) {
+  .missionDescription {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .learnMoreButton {
+    width: 100% !important;
+  }
+  .infoCardImage {
+    display: flex !important;
+    justify-content: flex-end !important;
+    img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  .infoContent {
+    flex-direction: column-reverse !important;
+  }
+  .infoCardDescription {
+    padding-top: 0 !important;
+    h1 {
+      padding-top: 0 !important;
+      font-size: 1.7rem !important;
+    }
+    ul > li {
+      font-size: 1rem !important;
+    }
+  }
+  .featureCard {
+    width: 95%;
+  }
+  .cardImage {
+    width: 90% !important;
+    height: 10rem !important;
+    object-fit: contain !important;
+  }
+  .managePadding {
+    padding: 0 !important;
+  }
+  .expoloreCardContainer {
+    padding: 2rem 0 !important;
+  }
+  .exploreCard {
+    width: 95%;
+  }
+  .exploreImage {
+    width: 90%;
+  }
+  .exploreDescription {
+    padding-bottom: 0;
+    h1 {
+      font-size: 1.5rem !important;
+      word-wrap: break-word;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+}

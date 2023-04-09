@@ -1,0 +1,47 @@
+.PIContainer{
+    background-color: var(--theme-color);
+    color: var(--sub-primary-color);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.sponserImage{
+    height: 6rem;
+    padding: 1rem;
+    width: 80%;
+}
+.PIHeader{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h1{
+        font-size: 2rem !important;
+        text-align: center;
+    }
+}
+
+.sliderContainer{
+    margin-top: 2rem;
+}
+
+.techPartners{
+    display: flex;
+    justify-content: center;
+    .img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .PIHeader{
+        h1{
+            font-size: 1.5rem !important;
+        }
+    }
+    .PIContainer{
+        padding-top: 1.5rem;
+    }
+    .sliderContainer{
+        margin-top: 1rem;
+    }
+}
